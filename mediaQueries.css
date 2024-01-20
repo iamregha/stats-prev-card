@@ -1,0 +1,38 @@
+
+@media screen and (max-width: 600px){
+
+    html, body{
+        height: 100%;
+    }
+    .container{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        box-sizing: border-box;
+        height: 100%;
+        margin: 20px auto;
+    }
+
+    .container > .card-content{
+        flex: 1;
+    }
+
+    .container > .card-image{
+        background-image: linear-gradient(hsla(292, 57%, 47%, 0.456),hsla(292, 57%, 47%, 0.347)), url("assets/images/image-header-mobile.jpg");
+        background-size: cover;
+        flex: 1;
+    }
+
+    .stat{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .stat > div{
+        flex: 1;
+    }
+
+
+}
