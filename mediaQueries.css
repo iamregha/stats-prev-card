@@ -1,8 +1,12 @@
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 1020px){
 
     html, body{
         height: 100%;
+        margin: 0;
+        padding: 50px;
+        font-size: 25px;
+        text-align: center;
     }
     .container{
         display: flex;
@@ -10,7 +14,7 @@
         justify-content: center;
         box-sizing: border-box;
         height: 100%;
-        margin: 20px auto;
+        margin: 20px;
     }
 
     .container > .card-content{
@@ -23,16 +27,25 @@
         flex: 1;
     }
 
-    .stat{
+    #para{
+        font-size: 28px;
+    }
+
+    .stats-con > p{
+        
+        font-size: 18px;
+    }
+    /* .stat{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    }
+        font-size: 20px;
+    } */
     
-    .stat > div{
+    /* .stat > div{
         flex: 1;
-    }
+    } */
 
 
 }
