@@ -3,9 +3,9 @@
 
     html, body{
         height: 100%;
-        margin: 0;
-        padding: 50px;
-        font-size: 25px;
+        margin: 10px;
+        padding: 10px;
+        font-size: 15px;
         text-align: center;
     }
     .container{
@@ -13,6 +13,7 @@
         flex-direction: column-reverse;
         justify-content: center;
         box-sizing: border-box;
+        width: 700px;
         height: 100%;
         margin: 20px;
     }
@@ -25,27 +26,19 @@
         background-image: linear-gradient(hsla(292, 57%, 47%, 0.456),hsla(292, 57%, 47%, 0.347)), url("assets/images/image-header-mobile.jpg");
         background-size: cover;
         flex: 1;
+        height: 100%;
     }
 
     #para{
-        font-size: 28px;
+        font-size: 15px;
     }
 
     .stats-con > p{
         
-        font-size: 18px;
+        font-size: 15px;
+        
     }
-    /* .stat{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        font-size: 20px;
-    } */
-    
-    /* .stat > div{
-        flex: 1;
-    } */
+
 
 
 }
