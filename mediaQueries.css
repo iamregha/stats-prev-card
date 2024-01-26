@@ -6,7 +6,7 @@
         margin: 10px;
         padding: 10px;
         font-size: 15px;
-        text-align: center;
+        /* text-align: center; */
     }
     .container{
         display: flex;
@@ -20,6 +20,7 @@
 
     .container > .card-content{
         flex: 1;
+        padding: 10px 150px 10px 50px
     }
 
     .container > .card-image{
@@ -35,8 +36,7 @@
 
     .stats-con > p{
         
-        font-size: 15px;
-        
+        font-size: 15px;     
     }
 
 
