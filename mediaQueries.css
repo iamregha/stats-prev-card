@@ -13,18 +13,19 @@
         flex-direction: column-reverse;
         justify-content: center;
         box-sizing: border-box;
-        width: 700px;
+        width: 600px;
         height: 100%;
         margin: 20px;
     }
 
     .container > .card-content{
         flex: 1;
-        padding: 10px 150px 10px 50px
+        padding: 10px 150px 0px 50px;
+        font-size: 15px;
     }
 
     .container > .card-image{
-        background-image: linear-gradient(hsla(292, 57%, 47%, 0.456),hsla(292, 57%, 47%, 0.347)), url("assets/images/image-header-mobile.jpg");
+        background-image: linear-gradient(hsla(292, 57%, 47%, 0.456),hsla(292, 57%, 47%, 0.347)), url("assets/images/image-header-desktop.jpg");
         background-size: cover;
         flex: 1;
         height: 100%;
@@ -41,4 +42,25 @@
 
 
 
+}
+
+@media screen and (max-width: 375px){
+
+    .container{
+        width: 100%;
+    }
+    .container > .card-content{
+        text-align: center;
+        width:100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .stat {
+        flex-direction: column;
+    }
+
+    .stat > div{
+        margin-top: 0;
+    }
 }
