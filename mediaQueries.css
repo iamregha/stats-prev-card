@@ -48,6 +48,7 @@
 
     .container{
         width: 100%;
+        margin: 10px auto;
     }
     .container > .card-content{
         text-align: center;
